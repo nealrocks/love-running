@@ -17,9 +17,10 @@ h1, h2{font-family: oswald, sans-serif;
        color: #252525
       }
 
-#logo{
+#logo {
        float: left;
        font-size: 280%;
+       margin-left: 30px;
 }
 
 menu { font-size: 100%;
@@ -47,7 +48,8 @@ menu { font-size: 100%;
              position: relative;
             }
 
- #cover-text, #cover-text h2{color: #fff}           
+#cover-text, #cover-text h2{color: #fff} 
+
 #hero-image{height: 600px;
             width: 100%;
              background: url('../images/hero-image.webp') no-repeat center center;
@@ -71,4 +73,29 @@ padding-left: 10px;
 background-color: rgba(241, 109, 107, .7);
 bottom: 30px;
 right: 150px;
-position: absolute;}
+
+position: absolute;
+}
+
+#club-ethos {
+   height: 600px;}
+
+#left-about {
+             padding-top: 30px;
+             width: 33%;
+             float: left;
+             background-color: blue;
+            }
+
+#right-about {
+              padding-top: 30px;
+              width: 33%;
+              float: right;
+              background-color: silver;
+}
+
+#center-about {
+                width: 33%;
+                margin: 0 auto;
+                background-color: green;
+}
