@@ -206,15 +206,17 @@ footer {
 }
 
 @media screen and (max-width: 1200px)
-      {
+{ 
+
 
        #club-ethos {
             width: 65%;
             height: 1200px;
             margin: 0 auto;
       }
-
 }
+
+
 
 #welcome {
       padding: 30px 0;
@@ -253,6 +255,7 @@ hr {
       margin-bottom: 20px;
       line-height: 25px;
       }
+}
 
 #cover-text {
       left: 0;
@@ -278,9 +281,18 @@ hr {
       padding: 0 20px;
 }
 
-
-
-
+#photos {
+      column-count: 3;
 }
-              
+
+@media screen and (max-width: 800px) {
+#photos {
+      column-count: 2;
+}
+}
+
+
+
+
+
 
